@@ -1,4 +1,4 @@
-# KeeBoard
+# KeeBoard ⌨️ 🔥
 <b>Check out my journal of mkaing this in the JOURNAL.md File!</b>
 ## A DIY ReallY cool mecahnical wired keyboard with backlighting which doesnt use an mcu! (Uses an atmeg32u4 chip inside, NEEDED TO MAKE MY OWN MCU INSIDE MY PCB).
 ![image](https://github.com/user-attachments/assets/83a71cb0-b5a8-478f-b882-7fa976e56b0a)
