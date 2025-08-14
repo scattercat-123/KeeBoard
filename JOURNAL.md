@@ -3,7 +3,7 @@ TOTAL TIME SPENT:
 65 hours over 15 days
 <hr>
 
-## Day 1: Reasearch and planning.
+## Day 1: Reasearch and planning. (5 hrs)
 OKay i decided to make a keyboard for fathers day as a gift. I aim for it to be wireless, have a compact and cool look, be fully cnc machined, and have creamy switches with a gasket mounted backlighted rgb keyboard. Spoiler: later I remove the wireless thing :(
 
 I would be making a wireless one with the Adafruit Feather nRF52840 Express with kmk firmware. I first researched on how to make a keyboard, because i dint know anything about keyboards... I decided i would go with the geatron milky yellow pro switches and a gasket mount system. I thought i will also be adding an oled display but later on i reomve it because of gpio issues. todays day was fully of research and planning. i saw many tutorial videos to see where to get started. for now i just create a lyout in KLE and i have some 65% kyboard thingy with weirdly 1.25u arrow keys bruh.
@@ -17,7 +17,7 @@ And these very cool blaze gradient keycaps:
 🔥 ikr
 Thats all for today...
 
-## Day 2: Yeah..
+## Day 2: Yeah.. (4 hrs)
 Today is the day i released the adafruit mcu doesnt have enough gpios for my keyboard.
 I decided to use qmk firmware which also supports standalone chips like the ATmega32u4 chip. i would basiclly making my mcu on my keyboard pcb which would make routing more harder and if anything goes wrong i have to order a new pcb bruh.
 And yeah. this means no wireless connectivity.
@@ -27,11 +27,11 @@ These shows the rowas and columns which i can use to see how many gpios i have t
 Also because of less space i will be using ws2812b-2020 which is basically the small ws2812 neopixels.
 Okay and i have started a bit fo my schematic 😭 yeah tmrw im cooked 💀
 
-## Day 3: Schematic day 💩
+## Day 3: Schematic day 💩 (4 hrs)
 Bruh the chip has like a 400 page datasheet whcih shows how i cna wire the schmatic. hopefully i ttook some help from the unterent and some ctrl+f's on the datasheet and i am almost doing the schematic properly. bruh
 I added a crystal and most of the power of usb wiring to my keyboard.
 
-## Day 4-6: Schematic Redo and some pcb design started
+## Day 4-6: Schematic Redo and some pcb design started (12 hrs)
 Okay bruh dont ask.
 I struggled to make the standalone chip to work with everything and i am finally done. i have also wired like some 90 neopixels for my keyboard.
 Another problem was that neopixels are very power hungry especially with many of them. so i had to add big tatalum capcitors like after 15 every 15 neopixels because the usb c only provides about 900mA iirc.
@@ -47,13 +47,13 @@ I started assign the symbols to footprints of parts ill get from lcsc
 
 I realized component selection will take a long long time..
 
-## Day 7: PCB Day
+## Day 7: PCB Day (4 hrs)
 Started making my pcb as soon as i come back from school(5pm).
 First i got the drawing of the plate file from ai03 plate generator of my kle layout.
 Then i put it into kicad's pcb editor and started placing all the keys.
 And also i put the USB.
 
-## Day 8-10: PCB Grinding day.
+## Day 8-10: PCB Grinding day. (12 hrs)
 I made almost the whole pcb. i connected the keys in a matrix with diodes. i also put all the leds. the routing was pretty hectic. i had to use so mayn vias nad like i have routing going from one side to another side of keyboard.  
 
 ![image](https://github.com/user-attachments/assets/9d10bc8b-0a4e-4fa8-a7d4-01cfc95cb7d4)
@@ -68,14 +68,14 @@ I FORGOT TO PUT THE STABILIZERS. and like no components can be under the screw i
 bruh yeah its 12:10pm
 🌙 imma go sleep.
 
-## Day 11: Final pcb edge cut edits and 3d modeling started for keyboard.
+## Day 11: Final pcb edge cut edits and 3d modeling started for keyboard. (4 hrs)
 I have started modeling the keyboard after fixing some issues with my pcb design and i have no errors in DRC or ERC.
 Now, first i went through some tutorials on them designing keyboards and i was very donfused on how i could mount the keyboard.
 If i just put 4 holes in the corners and screw the ocb in then the pcb would be felxy in the middle not giving enough balance. so i decided to gasket mount the entire keyboard.(i hope it works)
 I first started designing the top plate.
 ANd then i was exhausted so i started doing it tmrw.
 
-## Day 12-15
+## Day 12-15 (18 hrs)
 I finished my top plate which look svery cool and complact. also i have done the gasket mounting things.
 I have started making my bottom plate and the encoder.
 Also a nice touch i added is that i have a custom ccnced like small plate on my black cnc keyboard which will glow light in the holes making it more cool:
@@ -99,4 +99,3 @@ Okay im done. now submitting it in the highway pitstop channel!
 Thanks!
 IK either te keboard looks bad or i made 1000 mistakes.
 btw thanks to alex ren!
-
