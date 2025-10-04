@@ -10,3 +10,11 @@ This is my journal of the design and building process of **Updated PCB for my Ke
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/142).
 
 
+## 10/4/2025 - I made a new journal, i edited the schematic..  
+
+You can check my previous journal over [here](https://github.com/scattercat-123/KeeBoard/blob/main/PREVIOUS_JOURNAL.md).
+This journal is to finish my keyboard projejct called Keeboard. My PCB wasnt perfect and it was bad. so making a new design. I have the cad ready, just gonna make a new pcb or update the cad also!
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzE4LCJwdXIiOiJibG9iX2lkIn19--e6299297f970658474ba8236b9925726f2e1e35c/Untitled.png)
+
+I just updated some of the schematic...  
+
